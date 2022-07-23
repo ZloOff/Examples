@@ -69,12 +69,10 @@
 }
 .buckraund .centr .centr5 {
   display: flex;
-  gap: 20px;
+  gap: 10px;
 }
-.buckraund .centr .centr5 .img_centr5 {
+.buckraund .centr .centr5 .a_centr5 .img_centr5 {
+  border: 3px solid rgb(231, 11, 11);
   width: 40px;
   height: 46px;
-}
-.buckraund .centr .centr5 .a_centr5:active {
-  border: 1px;
 }/*# sourceMappingURL=style.css.map */
