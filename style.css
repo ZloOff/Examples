@@ -1,1 +1,13 @@
-/*# sourceMappingURL=style.css.map */
+.buckraund .right {
+  display: flex;
+  flex-direction: column;
+}
+.buckraund .right .img_right1 {
+  width: 550px;
+}
+.buckraund .right .img_right1 .btn {
+  background-image: url(https://m.media-amazon.com/images/I/71FkZVtLUhL._AC_SX425_.jpg);
+}
+.buckraund .right .img_right2 {
+  width: 100px;
+}/*# sourceMappingURL=style.css.map */
