@@ -125,4 +125,61 @@
   line-height: 19px;
   margin-bottom: 14px;
   margin-top: 0;
+}
+.buckraund .centr .centr7 {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  font-family: Arial, sans-serif;
+  color: #46413a;
+}
+.buckraund .centr .centr7 h2 {
+  margin-bottom: 5px;
+}
+.buckraund .centr .centr7 ul {
+  margin-top: 5px;
+}
+.buckraund .centr .centr7 li {
+  padding-top: 5px;
+}
+.buckraund .centr .centr7 a {
+  text-decoration: none;
+  font-weight: 500;
+  color: rgb(20, 65, 65);
+}
+.buckraund .centr .centr7 a span {
+  color: orange;
+}
+.buckraund .centr .centr7::after {
+  content: "";
+  background-color: transparent;
+  border-bottom-width: 0;
+  border-left-width: 0;
+  border-right-width: 0;
+  border-top: 1px solid #e7e7e7;
+  display: block;
+  height: 1px;
+  line-height: 19px;
+  margin-bottom: 14px;
+  margin-top: 0;
+}
+.buckraund .centr .centr8 {
+  display: flex;
+}
+.buckraund .centr .centr8 img {
+  width: 150px;
+  height: 100px;
+}
+.buckraund .centr .centr8 .centr8_div {
+  padding-left: 10px;
+}
+.buckraund .centr .centr8 .centr8_div a {
+  text-decoration: none;
+  color: rgb(136, 187, 17);
+}
+.buckraund .centr .centr8 .centr8_div .centr8_p {
+  color: #f19b21;
+}
+.buckraund .centr .centr9 span {
+  font-weight: 700;
 }/*# sourceMappingURL=style.css.map */
