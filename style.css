@@ -72,7 +72,57 @@
   gap: 10px;
 }
 .buckraund .centr .centr5 .a_centr5 .img_centr5 {
-  border: 3px solid rgb(231, 11, 11);
-  width: 40px;
-  height: 46px;
+  width: 36px;
+  height: 26px;
+}
+.buckraund .centr .centr5 .active {
+  margin: 10 10;
+  cursor: pointer;
+  padding: 5px 10px 5px 11px;
+  background-color: #f3eee7;
+  border: 2px solid orange;
+}
+.buckraund .centr .centr5 .active:hover {
+  background-color: rgb(113, 116, 121);
+}
+.buckraund .centr .centr5 .disable {
+  margin: 10 10;
+  padding: 5px 10px 5px 11px;
+  background-color: #f3eee7;
+  background-color: transparent;
+  border: 2px dashed rgb(224, 219, 219);
+  font-size: 13px;
+  cursor: pointer;
+}
+.buckraund .centr .centr5 .disable:hover {
+  background-color: rgb(241, 227, 227);
+}
+.buckraund .centr .centr6 {
+  width: 500px;
+}
+.buckraund .centr .centr6 .td1 {
+  padding-top: 5px;
+  color: rgb(41, 39, 36);
+  font-weight: 700;
+  width: 20px;
+}
+.buckraund .centr .centr6 .td2 {
+  padding-top: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(133, 125, 113);
+  font-weight: 500;
+  padding-left: 10px;
+}
+.buckraund .centr .centr6::after {
+  content: "";
+  background-color: transparent;
+  border-bottom-width: 0;
+  border-left-width: 0;
+  border-right-width: 0;
+  border-top: 1px solid #e7e7e7;
+  display: block;
+  height: 1px;
+  line-height: 19px;
+  margin-bottom: 14px;
+  margin-top: 0;
 }/*# sourceMappingURL=style.css.map */
