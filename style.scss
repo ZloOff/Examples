@@ -180,7 +180,16 @@ padding-top: 20px;
 padding-bottom: 10px;
 button {
 width: 200px;
-height: 40px;}
+height: 40px;
+cursor: pointer;
+color: #f0e4e4;
+background-color: #757070;
+border-radius: 10px;
+transition: 1.45s;
+outline: none;
+&:hover {
+color: #f19b21;
+background-color: #5c2b2b;}}
 &::after {
     content: "";
     background-color: transparent;
@@ -198,7 +207,24 @@ height: 40px;}
 .leftdiv3 {
     button {
     width: 200px;
-    height: 40px;}}
+    height: 40px;
+    background-color: #757070;
+    color: #f70a0a;
+    cursor: pointer;
+    border: none;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    outline: none;
+    transition: 0.5s;
+&:hover {
+transform: translateY(-5px);
+box-shadow: 0 5px 0 rgb(59, 58, 53);
+background-color: #9b5f1b;
+color: #47f113;}
+&:active {
+transform: translateY(-2px);
+box-shadow: 0 3px 0 rgb(163, 141, 15);}}}
+
 
 
 
